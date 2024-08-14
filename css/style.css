@@ -95,7 +95,7 @@ section{
 }
 
 span{
-    color: var(--main-color);
+    color: #f8dd85;
 }
 
 
@@ -106,10 +106,10 @@ span{
     align-items: center;
     width: 100%;
     
-        background-image: url('/img/Design\ sem\ nome\ \(1\).png');
-        background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
-        background-repeat: no-repeat; /* Evita que a imagem se repita */
-        background-position: center center; /* Centraliza a imagem no fundo */
+        background-image: url('/img/posada\ paraiso\ nativo.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center  center; 
     
     
     
@@ -118,10 +118,10 @@ span{
 
 
 .home-img img{
-    width: 100%;
+    width: 130%;
     border-right: solid 0.6rem;
     border-bottom: solid 0.6rem ;
-    border-image: linear-gradient(125deg, transparent 55%, #c0edec) 1;
+    border-image: linear-gradient(125deg, transparent 55%, #4555e7) 1;
 
 }
 
@@ -130,6 +130,61 @@ span{
     
 }
 
+.local{
+    background-color: #718191;
+}
+
+.local-content {
+    color: #232323;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.local-content iframe{
+    position: relative;
+    width: 80%; 
+    left: 60px;
+    top: 300px;
+    height: 500px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    display: block; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(8, 112, 126, 0.658); 
+    border: 0px solid #2e7a61;
+    background-color: #000;
+ 
+}
+
+.local-layer{
+    
+    position: relative;
+    width: 100%; 
+    left: 100px;
+    top: -200px;
+    height: 500px; 
+    max-width: 0px; 
+    margin: 0 auto; 
+    display: block; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(8, 112, 126, 0.658); 
+   
+    
+    
+}
+
+.local-content h1{
+    font-weight: 900;
+    position: relative; 
+    top: 0px;         
+    left: 450px;
+    line-height: 6.2rem;
+    font-size: 2.2rem;
+    text-align: center;
+ 
+}
 
 
 
@@ -200,7 +255,7 @@ transform: scale(1.01);
     letter-spacing: 0.1rem;
     display: -webkit-box;
     -webkit-line-clamp: 4;
-    line-clamp: 4; /* Propriedade padrão */
+    line-clamp: 4; 
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -217,21 +272,41 @@ transform: scale(1.01);
     background-color: #ceddeb;
 }
 
-.hambiente-container{
-    display: grid; 
-    gap: 1.2rem;
-   
-   
-
+.hambiente-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-template-rows: auto 1fr;
+    gap: 0.3rem;
+    justify-items: center; 
 }
+
+.hambiente-container h2 {
+    grid-column: 1 / -1; 
+    grid-row: 1; 
+    color: #295343;
+    font-size: 2.2rem;
+    text-align: center; 
+    margin: 0; 
+}
+
+.hambiente-content {
+    grid-column: 1 / -1; 
+    grid-row: 2; 
+}
+
+
 
 .hambiente-box{
     position: relative;
-    border-radius: 0.6rem;
+    border-radius: 0.9rem;
     box-shadow: 0 0 0.6rem var(--bg-color-01);
     overflow: hidden;
     display: flex;
-    width: 100%;
+    width: 50%;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    height: 400px;
    
 }
 
@@ -250,7 +325,7 @@ transform: scale(1.01);
  bottom: 0;
  left: 0;
  width: 100%;
- height: 100%;
+ height: 20%;
  background: linear-gradient(transparent, var(--bg-color-02));
  display: flex;
  justify-content: center;
@@ -315,7 +390,7 @@ transform: scale(1.01);
     cursor: pointer;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1, .bar2, .bar3, .bar4 {
     width: 2rem;
     height: 0.3rem;
     background-color: var(--text-color);
@@ -328,8 +403,8 @@ transform: scale(1.01);
 }
 
 .change .bar2{
-   opacity: 0;
-}
+    opacity: 0;
+ }
 
 .change .bar3{
     transform: translate(0, -0.65rem) rotate(45deg);
@@ -342,10 +417,10 @@ transform: scale(1.01);
  width: 2.5rem;
  height: 2.5rem;
  background: transparent;
- border: solid 0.15rem var(--main-color);
+ border: solid 0.15rem #ffffff;
 border-radius: 50%;
 font-size: 2rem;
-color: var(--main-color);
+color: #f9fcff;
 margin: 1.8rem 0.5rem;
 transition: 0.5 ease;
 }
