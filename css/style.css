@@ -36,7 +36,7 @@ html{
 
 
 body {
-    background-color: #ceddeb;
+    background-color: #8baac7;
     color: var(--text-color)
 }
 
@@ -95,7 +95,7 @@ section{
 }
 
 span{
-    color: #f8dd85;
+    color: #f7b842d8;
 }
 
 
@@ -131,7 +131,7 @@ span{
 }
 
 .local{
-    background-color: #718191;
+    background-color: #adc5db;
 }
 
 .local-content {
@@ -243,7 +243,7 @@ transform: scale(1.01);
 
 .services-box i{
     font-size: 4.3rem;
-    color: #6fcedf;
+    color: #54a7b8;
 }
 
 .services-box h3 {
@@ -269,7 +269,7 @@ transform: scale(1.01);
 }
   
 .hambiente{
-    background-color: #ceddeb;
+    background-color: #d5e4e4;
 }
 
 .hambiente-container {
