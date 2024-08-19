@@ -36,7 +36,7 @@ html{
 
 
 body {
-    background-color: #a2ccfc9d;
+    background-color: #b1aa94;
     color: var(--text-color)
 }
 
@@ -119,9 +119,8 @@ span{
 
 .home-img img{
     width: 130%;
-    border-right: solid 0.6rem;
-    border-bottom: solid 0.6rem ;
-    border-image: linear-gradient(125deg, transparent 55%, #4555e7) 1;
+    
+   
 
 }
 
@@ -131,7 +130,7 @@ span{
 }
 
 .local{
-    background-color: #ffffff;
+    background-color: #385786c5;
 }
 
 .local-content {
@@ -146,7 +145,7 @@ span{
     position: relative;
     width: 80%; 
     left: 60px;
-    top: 300px;
+    top: 100px;
     height: 500px; 
     max-width: 800px; 
     margin: 0 auto; 
@@ -163,7 +162,7 @@ span{
     position: relative;
     width: 100%; 
     left: 100px;
-    top: -200px;
+    top: -400px;
     height: 500px; 
     max-width: 0px; 
     margin: 0 auto; 
@@ -199,8 +198,14 @@ span{
     margin-top: 1.2rem;
     text-align: justify;
 }
+.services{
+    background-image: url('/img/Subauma.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center  center; 
+}
 
-.services h2, .hambiente h2 {
+.services h2, .ambiente h2 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -272,11 +277,16 @@ transform: scale(1.01);
     
 }
   
-.hambiente{
-    background-color: #f7f4f3c2;
+.ambiente{
+    background-image: url(/img/Subauma.jpg);
+    
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center  center; 
+    
 }
 
-.hambiente-container {
+.ambiente-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     grid-template-rows: auto 1fr;
@@ -284,7 +294,7 @@ transform: scale(1.01);
     justify-items: center; 
 }
 
-.hambiente-container h2 {
+.ambiente-container h2 {
     grid-column: 1 / -1; 
     grid-row: 1; 
     color: #0c2852;
@@ -293,14 +303,14 @@ transform: scale(1.01);
     margin: 0; 
 }
 
-.hambiente-content {
+.ambiente-content {
     grid-column: 1 / -1; 
     grid-row: 2; 
 }
 
 
 
-.hambiente-box{
+.ambiente-box{
     position: relative;
     border-radius: 0.9rem;
     box-shadow: 0 0 0.6rem var(--bg-color-01);
@@ -314,17 +324,17 @@ transform: scale(1.01);
    
 }
 
-.hambiente-box img {
+.ambiente-box img {
     width: 100%;
     transition: 0.5s ease;
     box-sizing: border-box;
 }
 
-.hambiente-box img:hover{
+.ambiente-box img:hover{
     transform: scale(1.1);
 }
 
-.hambiente-box .hambiente-layer{
+.ambiente-box .ambiente-layer{
  position: absolute;
  bottom: 0;
  left: 0;
@@ -342,20 +352,20 @@ transform: scale(1.01);
 }
 
 
-.hambiente-box:hover .hambiente-layer{
+.ambiente-box:hover .ambiente-layer{
    transform: translateY(0);
 
 }
 
-.hambiente-layer h4 {
+.ambiente-layer h4 {
     font-size: 1.8rem;
 
 }
 
-.hambiente-layer p{
+.ambiente-layer p{
     margin: 0.2rem 0 0.5rem;
 }
-.hambiente-layer a {
+.ambiente-layer a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -365,7 +375,7 @@ transform: scale(1.01);
     border-radius: 100%;
 }
 
-.hambiente-layer a i {
+.ambiente-layer a i {
     font-size: 1.2rem;
     color: var(--bg-color-02);
 }
@@ -570,7 +580,7 @@ transition: 0.5 ease;
         margin-bottom: 2rem;
     }
 
-    .hambiente-container {
+    .ambiente-container {
         grid-template-columns:  auto auto;
     }
 }
@@ -609,7 +619,7 @@ transition: 0.5 ease;
     font-size: 2rem;
 }
 
-.hambiente-container {
+.ambiente-container {
     grid-template-columns:  auto auto auto;
 }
     
